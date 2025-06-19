@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: #f8f1e7;
+    color: #3e2c1c;
+}
+
+header {
+    background-color: #5c3a21;
+    color: white;
+    text-align: center;
+    padding: 30px 10px 10px;
+}
+
+.logo {
+    font-size: 2.5em;
+}
+
+.slogan {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+nav {
+    background-color: #a9744f;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('img2/in.jpg') center/cover no-repeat;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 4px #000;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.introduccion, .nosotros, .contacto {
+    padding: 50px 40px;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+}
+
+.productos {
+    padding: 50px 20px;
+    background-color: #a9744f;
+}
+
+.tarjeta-producto {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #d2b48c;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tarjeta-producto img {
+    width: 300px;
+    height: auto;
+}
+
+.tarjeta-producto .contenido {
+    padding: 20px;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.precio {
+    font-weight: bold;
+    color: #a0522d;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #a9744f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #8b461b;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #31200f;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: #5c3a21;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
